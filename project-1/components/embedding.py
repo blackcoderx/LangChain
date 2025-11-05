@@ -11,6 +11,8 @@ def create_vector_store(chunks):
     
     This calls Google's Gemini API to convert text to vectors.
     Each chunk becomes a 768-dimensional vector.
+    In this code, the vectore is created whenever you run the code. 
+    So the current one overwrites the previous one
     """
 
     
